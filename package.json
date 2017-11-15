@@ -1,0 +1,24 @@
+{
+  "name": "flash-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "flash": "index.js"
+  },
+  "author": "Fiona",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "ejs": "^2.5.7",
+    "inquirer": "^4.0.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.7.8"
+  }
+}
